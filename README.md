@@ -98,4 +98,4 @@ For detailed academic documentation, database design decisions, and ER diagrams,
 
 ## 👨‍💻 Author
 **Abhinav Kumar**  
-*Roll No:* 1024031186 | *Batch:* 2C81
+*Roll No:* 1024031186 
