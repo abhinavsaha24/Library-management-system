@@ -1,8 +1,11 @@
 # 📚 Library Management System Using MySQL
 
-![Library Banner](https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Flask](https://img.shields.io/badge/Flask-API-green.svg)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange.svg)
+![HTML/CSS](https://img.shields.io/badge/Frontend-HTML%2FCSS-yellow.svg)
 
-A comprehensive, full-stack **Library Management System** built as a DBMS academic project. It features a robust MySQL backend equipped with advanced database elements (Stored Procedures, Triggers), an interactive frontend, and a Flask API.
+A comprehensive, full-stack **Library Management System** built as an academic DBMS project. It features a robust MySQL backend equipped with advanced database elements (Stored Procedures, Triggers), an interactive frontend, and a Flask API.
 
 This project solves the real-world problem of manual, paper-based library record keeping, providing an efficient, error-free, and searchable digital solution.
 
@@ -22,7 +25,7 @@ This project solves the real-world problem of manual, paper-based library record
 - **Frontend:** HTML5, Vanilla CSS, JavaScript (Fetch API)
 - **Backend:** Python (Flask)
 - **Database:** MySQL
-- **Architecture:** Client-Server architecture with RESTful API endpoints.
+- **Architecture:** Client-Server architecture with RESTful API endpoints
 
 ---
 
@@ -45,18 +48,13 @@ The system utilizes a fully normalized relational database schema (`LibraryDBMS`
 ## 🚀 Local Setup & Deployment
 
 Follow these steps to run the project locally on your machine.
-open the root file int the cd or windows poweshell
-pip install -r requirements.txt
-pip install flask mysql-connector-python
-python app.py
 
 ### Prerequisites
-- Python 3.8+
-- MySQL Server
-- `pip` package manager
+- **Python 3.8+** installed
+- **MySQL Server** running
 
-### 1. Database Setup
-1. Open your MySQL client/terminal.
+### 1. Database Initialization
+1. Open your MySQL client or terminal.
 2. Run the `library_system.sql` script to initialize the database, tables, triggers, and procedures:
    ```sql
    source /path/to/library_system.sql
@@ -72,27 +70,32 @@ python app.py
    ```
 
 ### 2. Backend Setup
-1. Install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Start the Flask server:
-   ```bash
-   python app.py
-   ```
+Open the root directory in your command prompt, Windows PowerShell, or terminal, and run the following commands:
+
+```bash
+# Install the required dependencies
+pip install -r requirements.txt
+
+# Alternatively, install manually
+pip install flask mysql-connector-python
+
+# Start the Flask server
+python app.py
+```
 
 ### 3. Access the Application
-- Open your web browser and navigate to: `http://localhost:5000`
+- Open your web browser and navigate to: [http://localhost:5000](http://localhost:5000)
 
+---
 
 ## 📝 Documentation
 For detailed academic documentation, database design decisions, and ER diagrams, refer to:
-- [`REPORT.md`](REPORT.md) - Full project report.
-- [`DBMS_Synopsis_Report.md`](DBMS_Synopsis_Report.md) - Brief project synopsis.
-- `ER_DIAGRAM.png` - Visual database schema.
+- 📄 [`REPORT.md`](REPORT.md) - Full project report.
+- 📄 [`DBMS_Synopsis_Report.md`](DBMS_Synopsis_Report.md) - Brief project synopsis.
+- 🖼️ [`ER_DIAGRAM.png`](ER_DIAGRAM.png) - Visual database schema.
 
 ---
 
 ## 👨‍💻 Author
-**Abhinav Kumar**
-*Roll No:* 1024031186
+**Abhinav Kumar**  
+*Roll No:* 1024031186 | *Batch:* 2C81
