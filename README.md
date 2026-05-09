@@ -45,6 +45,10 @@ The system utilizes a fully normalized relational database schema (`LibraryDBMS`
 ## 🚀 Local Setup & Deployment
 
 Follow these steps to run the project locally on your machine.
+open the root file int the cd or windows poweshell
+pip install -r requirements.txt
+pip install flask mysql-connector-python
+python app.py
 
 ### Prerequisites
 - Python 3.8+
@@ -80,20 +84,6 @@ Follow these steps to run the project locally on your machine.
 ### 3. Access the Application
 - Open your web browser and navigate to: `http://localhost:5000`
 
-### Turbofan RUL Prediction System Deployment (Reference)
-If you are also deploying the Turbofan RUL Prediction System, follow these steps:
-```bash
-cd C:\Users\abhin\Videos\turbofan-rul-prediction-system
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python -m src.preprocess
-python -m src.evaluate
-uvicorn api.main:app --host 127.0.0.1 --port 8000
-streamlit run app/streamlit_app.py --server.port 8501
-```
-
----
 
 ## 📝 Documentation
 For detailed academic documentation, database design decisions, and ER diagrams, refer to:
