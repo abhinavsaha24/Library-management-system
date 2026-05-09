@@ -1,5 +1,7 @@
 # 📚 Library Management System Using MySQL
 
+![Library Banner](https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-API-green.svg)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange.svg)
